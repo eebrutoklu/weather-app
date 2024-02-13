@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather App | API</title>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-side">
+        <div class="weather-gradient"></div>
+        <div class="date-container">
+          <h2 class="date-dayname"></h2>
+          <span class="date-day"></span>
+          <span class="location"></span>
+        </div>
+        <div class="weather-container">
+          <i class="weather-icon"></i>
+          <h1 class="weather-temp"></h1>
+          <h3 class="weather-desc"></h3>
+        </div>
+      </div>
+      <div class="info-side">
+        <div class="today-info-container">
+          <div class="today-info">
+            <div class="precipitation">
+              <span class="title"></span><span class="value"></span>
+              <div class="clear"></div>
+            </div>
+            <div class="humidity">
+              <span class="title"></span><span class="value"></span>
+              <div class="clear"></div>
+            </div>
+            <div class="wind">
+              <span class="title"></span><span class="value"></span>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+        <div class="week-container">
+          <ul class="week-list">
+            <!-- Weather forecast for the week will be populated here -->
+          </ul>
+        </div>
+        <div class="location-container">
+          <input type="text" placeholder="Enter city" class="city-text" />
+          <button class="button">
+            <span>Get Weather</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
