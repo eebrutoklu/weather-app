@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   /* Verileri async await ile alma için asenkron fonksiyon
   async function getData(cityName) {
-    const API_KEY = "9c21730a55042218a6d94ba46df94f93";
+    const API_KEY = "9c21730a550422186d94ba46df94f93";
     const baseURL = `https://api.openweathermap.org/data/2.5/forecast?q=${cityName}&units=metric&appid=${API_KEY}&cnt=40`;
 
     try {
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Verileri almak için asenkron fonksiyon
   function getData(cityName) {
-    const API_KEY = "9c21730a55042218a6d94ba46df94f93";
+    const API_KEY = "9c21730a550422186d94ba46df94f93";
     const baseURL = `https://api.openweathermap.org/data/2.5/forecast?q=${cityName}&units=metric&appid=${API_KEY}&cnt=40`;
 
     return fetch(baseURL)
